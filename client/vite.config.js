@@ -11,6 +11,7 @@ export default defineConfig({
       "/api": {
         target: "https://leavemanagment-backend.onrender.com",
         changeOrigin: true,
+      
       },
     },
   },
