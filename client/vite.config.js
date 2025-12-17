@@ -7,12 +7,5 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   server: {
     port: 3000,
-    proxy: {
-      "/api": {
-        target: "https://leavemanagment-backend.onrender.com",
-        changeOrigin: true,
-      
-      },
-    },
   },
 })
